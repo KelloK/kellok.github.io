@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+#principal{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #FFF;
+	}
+	
+header#cabecalho{
+	width: 1024px;
+	height: 150px;
+	float:left;
+	background-image:url(logo.png);
+	margin-top: 3px;
+	}
+header#cabecalho h3 a{
+	font-family: "Century Gothic";
+	font-size: 16px;
+}
+header#carrinho p a{
+	font-family:"Century Gothic";
+	font-size: 18px; 
+	}
+section#corpo{
+	width: 1024px;
+	height:0 auto;
+	min-height: 500px;
+	float:left;
+	}
+nav#menu{
+	width: 1024px;
+	height:30%;
+	
+}
+footer#rodape{
+	width: 1024px;
+	height: 38px;
+	color:#fff;
+	background-color:#000;
+	float: left;	
+	text-align: center;
+	}
+footer#rodape p{
+	margin-top: 10px;
+}
+header#cabecalho h1{
+	font-family: "Bauhaus 93";
+	font-size: 42px;
+	float: left;
+	margin-left: 165px;
+	text-align: center;
+	margin-top: 55px;
+}
+header#cabecalho a{
+	color: #000;
+}
+header#cabecalho a:hover{
+	color: #000;	
+}	
+header#cabecalho h3 {
+	float:right;
+	margin-top: -145px;
+	margin-right: 5px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+header#cabecalho p{
+	float:right;
+	margin-right: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 18px;
+	margin-top: -58px;
+	border:solid 2px rgba(0, 0, 0, 0.9);
+	border-width: 10px;
+	background-color: #000;
+	color: #FFF;
+}
+
+/*Carrinho de compras*/
+#carrinho{
+	width: 100px;
+	height: 50px;
+	float: right;
+	margin-top: -70px;	
+}
+/*Fim do carrinho de compras*/
+
+/*Menu 1*/
+nav {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto";
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -16px;
+}
+
+nav ul {
+  background: #FFF;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav ul li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  text-align: center;
+  z-index:999;
+  
+}
+
+nav ul li:first-child a {
+  background: #FFF;
+  width: 50px;
+  padding: 15px 0;
+}
+
+nav ul li:last-child { margin: 0; }
+
+nav ul li a {
+  display: block;
+  background: #FFF;
+  padding: 15px 20px;
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+nav ul li a:hover { background: #000; }
+
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 240px;
+  border-bottom: 4px solid #000;
+}
+
+nav ul li ul li {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+nav ul li ul li a {
+  display: block;
+  padding: 10px 15px;
+}
+
+nav ul li ul li a:first-child {
+  background: #fff;
+  width: auto;
+  border-left: 4px solid transparent;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+nav ul li ul li a:hover {
+  background: #666;
+  border-left: 4px solid #000;
+}
+nav ul li a:link{ text-decoration: none; }
+nav ul li a:hover{ color: #FFF; }
+/*Fim menu 1 */
+
+
+/*Anuncio*/
+.cms-section-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Oswald-Lighter","Helvetica Neue",Helvetica,Arial;
+    font-weight: 400;
+    font-size: 24px;
+    color: #8E8E8E;
+	margin-top: 30px;
+}
+class^="cms-"] {
+    box-sizing: border-box;
+}
+*[class^=cms-] {
+    box-sizing: content-box ;
+    -moz-box-sizing: content-box;
+}
+.cms-section-title::before {
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #b3b3b3;
+}
+/*Fim do anuncio*/
+
+
+/*Mecanismo de busca*/
+#txtBusca{
+	background-color:transparent;
+	padding-left:5 px;	
+	font-size:18px;
+	border:none;
+	height:37px;
+	width:300px;
+	float:right;
+}
+
+#btnBusca{
+	float:right;
+	cursor:pointer;
+	width: 30px;
+	height: 30px;
+	vertical-align: central;
+	margin-right: 4px;
+	margin-top:3px;
+}
+
+#divBusca img{
+	float: right;
+}
+
+#divBusca{
+	border:solid 2px rgba(0, 0, 0, 0.9);
+	border-radius:1px;
+	height:37px;
+	width: 457px;
+	float:left;
+	margin-top: 110px;
+	margin-right: 185px;
+	margin-left: -70px;
+}
+input#txtBusca{
+	width: 420px;
+	height: 35px;
+	float: left;
+	}
+	
+/*Fim do mecanismo de busca*/
+	
+#shop{
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	border: 1px solid;
+	border-color: #ccc;
+	padding: 10px;
+	width: 180px;
+	height: 180px;
+}
+
+section#corpo ul{
+	float: left;
+	list-style: none;
+	display:inline;
+	margin-left: 50px;
+	font-family: "Century Gothic";
+	font-size: 14px;
+}
+section#corpo li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+section#corpo li{
+	margin-top: 5px;
+}
+a {
+text-decoration: none;
+}
+
+#venda img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+

@@ -1,0 +1,76 @@
+
+section#introduction{
+	width: 400px;
+	height:500px;;
+	margin-bottom: 5px;
+	text-align:left;
+	margin-left: 100px;
+}
+
+#venda{
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	border: 1px solid;
+	border-color: #ccc;
+	width: 350px;
+	height: 250px;
+	padding-top: 2px;
+	text-align: center;
+}
+#container #venda p{
+	text-align: center;
+}
+#container #venda h1{
+	text-align: center;
+}
+
+#container #venda h2{
+	text-align: center;
+}
+
+
+#container {
+	width:1024px;
+	height: 0 auto;
+	margin-top: 5px;
+	float: left;
+}
+
+#container h1{
+	text-align: left;
+	margin-left: 10px;
+}
+#container p{
+	text-align: left;
+	margin-left: 20px;
+}
+#container li{
+	list-style: none;
+	margin-left: -20px;
+}
+
+.thumbnails {
+	overflow: hidden;
+	text-align: center;
+	margin-left: -30px;
+	margin-top: 3px;
+}
+.thumbnails li {
+	display: inline-block;
+	width: 80px;
+	border: 1px solid;
+	color: #ccc;
+}
+
+.thumbnails img {
+	display: block;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+
+.toggle {
+	display: block;
+	margin: 10px auto 1.5em;
+}
